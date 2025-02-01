@@ -7,7 +7,6 @@ int main()
  float x[20], y[20][20];
  int i,j, n;
 
-
  cout << "Enter number of data? " << endl;
  cin >> n;
 
