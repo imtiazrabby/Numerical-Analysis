@@ -22,7 +22,7 @@ int main(){
      cout<<endl;
   }
 
-    cout<<endl<<"Enter year value: ";
+    cout<<endl<<"Enter the value for which you want the output: ";
      int yval; cin>>yval;
 
     double y = a[n-1][1];
@@ -37,8 +37,7 @@ int main(){
         u = u*(u+i-1);
     }
 
-
-  cout<<y<<endl;
+   cout<<y<<endl;
 
    return 0;
 }

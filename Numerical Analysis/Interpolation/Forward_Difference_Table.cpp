@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 int main()
@@ -7,7 +6,7 @@ int main()
  float x[20], y[20][20];
  int i,j, n;
 
- cout << "Enter number of data? " << endl;
+ cout << "Enter number of data: " << endl;
  cin >> n;
 
  cout << "Enter data: " << endl;
