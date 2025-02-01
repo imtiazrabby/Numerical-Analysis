@@ -41,8 +41,5 @@ for(int i=0; i<n; i++){
 cout<<"Upper triangular matrix: "<<endl;
 print(mat);
 
-
-
-
 return 0;
 }
