@@ -9,7 +9,6 @@ using namespace std;
 /* ∫ √(1 + x³) dx, upper = 1, lower = 0, interval = 5
     #define f(x) sqrt(1+pow(x,3))   */
 
-
 int main()
 {
     double lower, upper, interval;
