@@ -46,3 +46,4 @@ int main() {
 
     cout << "\nThe interpolated value at x = " << value << " is " << result << endl;
     return 0;
+}
