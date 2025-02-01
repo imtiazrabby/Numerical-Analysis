@@ -3,18 +3,18 @@ using namespace std;
 int main(){
  int n;cin>>n;
  int a[n][n+1];
- // x value
+ 
  for(int i=0; i<n; i++)cin>>a[i][0];
- // y value
+
  for(int i=0; i<n; i++)cin>>a[i][1];
 
- // Difference table
+ 
  for(int j=2; j<n+1; j++){
     for(int i=0; i<n-j+1; i++){
         a[i][j] = a[i+1][j-1] - a[i][j-1];
     }
  }
-/// print difference table
+
   for(int i=0; i<n; i++){
      for(int j=0; j<n+1-i; j++){
         cout<<a[i][j]<<" ";
@@ -40,11 +40,5 @@ int main(){
 
   cout<<y<<endl;
 
-
- return 0;
+   return 0;
 }
-/**
-Find value of y at x=1925 for below data table:
-5
-Year(x)      : 1891 1901 1911 1921 1931
-Population(y): 46 66 81 93 101
